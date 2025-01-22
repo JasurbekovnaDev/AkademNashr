@@ -15,3 +15,9 @@ font-size: 13px;
 letter-spacing: 0.04em;
 color: #fff;
 }
+.hero-section {
+  background: #252420;
+}
+.hero-content {
+  width: 390px;
+}
