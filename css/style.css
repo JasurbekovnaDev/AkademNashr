@@ -1,0 +1,17 @@
+.site-header {
+  background-color: white;
+}
+.sitenav-link {
+  font-weight: 500;
+font-size: 13px;
+letter-spacing: 0.08em;
+text-transform: uppercase;
+color: #000;
+}
+.main link {
+  background-color: #ff7500;
+  font-weight: 700;
+font-size: 13px;
+letter-spacing: 0.04em;
+color: #fff;
+}
