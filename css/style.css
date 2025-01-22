@@ -20,4 +20,25 @@ color: #fff;
 }
 .hero-content {
   width: 390px;
+  color: #fff;
+}
+.orange-line {
+  background-color: #ff7500;
+  width: 80px;
+  height: 3px;
+}
+.hero-title {
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0.5px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+}
+.hero-text {
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.5px;
 }
