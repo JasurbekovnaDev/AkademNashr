@@ -10,7 +10,7 @@
   color: #000;
 }
 
-.main link {
+.main-link {
   background-color: #ff7500;
   font-weight: 700;
   font-size: 13px;
@@ -69,32 +69,38 @@
   line-height: 28px;
   letter-spacing: 0.5px;
 }
+
 .future-item-text {
   font-weight: 400;
   font-style: 16px;
   line-height: 24px;
   letter-spacing: 0.5px;
 }
+
 .sale {
-  background:#252420;
+  background: #252420;
 }
+
 .sale-content {
   width: 440px;
   color: #fff;
 }
+
 .sale-title {
   font-weight: 700;
   font-size: 40px;
   letter-spacing: 0.5px;
   line-height: 48px;
 }
+
 .primary-text {
   color: #ff7500;
   font-weight: 700;
 }
+
 .sale-text {
   font-weight: 400;
   font-style: 16px;
   line-height: 24px;
-  letter-spacing: 0.5px;   
+  letter-spacing: 0.5px;
 }
