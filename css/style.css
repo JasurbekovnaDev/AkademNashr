@@ -1,8 +1,22 @@
- /* 
- Roboto - font
- font-weight: 400,500,700
- Normal,mediam
- */
+/*Fonts*/
+@font-face {
+ font-family:"Roboto";
+ src: url(../fonts/Roboto-Regular.ttf);
+ font-weight: 400;
+ font-style: ;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url(../fonts/Roboto-Medium.ttf);
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Roboto Condensed";
+  src: url(../fonts/Roboto_Condensed-Bold.ttf);
+  font-weight: 700;
+  font-style: normal;
+}
  * {
    font-family: "Roboto",sans-serif;
    font-weight: ;
@@ -19,6 +33,7 @@
    text-transform: uppercase;
    color: #000;
    text-decoration: none;
+   list-style: none;
  }
 
  .main-link {
@@ -46,6 +61,7 @@
  }
 
  .hero-title {
+  font-family:"Roboto Condensed" ;
    font-size: 40px;
    font-weight: 700;
    line-height: 48px;
@@ -63,6 +79,7 @@
  }
 
  .feature-title {
+  font-family:"Roboto Condensed" ;
    color: #000;
    font-weight: 700;
    font-size: 72px;
@@ -76,6 +93,7 @@
  }
 
  .feature-item-title {
+  font-family:"Roboto Condensed" ;
    font-weight: 700;
    font-size: 24px;
    line-height: 28px;
@@ -99,6 +117,7 @@
  }
 
  .sale-title {
+  font-family:"Roboto Condensed" ;  
    font-weight: 700;
    font-size: 40px;
    letter-spacing: 0.5px;
