@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>AkademNashr</title>
+  <link rel="stylesheet" href="./css/normalize.css">
   <link rel="stylesheet" href="./css/style.css">
 </head>
 
@@ -16,10 +17,10 @@
     </a>
     <nav class="site-header-nav">
       <ul class="list-none site-header-list">
-        <li><a class="sitenav-link active" href="index.html">Bosh sahifa</a></li>
-        <li><a class="sitenav-link" href="#">Kitoblar</a></li>
-        <li><a class="sitenav-link" href="#">Aksiyalar</a></li>
-        <li><a class="sitenav-link" href="#">Kontaktlar</a></li>
+        <li class="sitenav-list-item"><a class="sitenav-link active" href="index.html">Bosh sahifa</a></li>
+        <li class="sitenav-list-item"><a class="sitenav-link" href="#">Kitoblar</a></li>
+        <li class="sitenav-list-item"><a class="sitenav-link" href="#">Aksiyalar</a></li>
+        <li class="sitenav-list-item"><a class="sitenav-link" href="#">Kontaktlar</a></li>
       </ul>
       <a href="#" class="main-link">Ro’yxatdan o’tish</a>
     </nav>
@@ -30,7 +31,7 @@
     <!-- Hero Section -->
     <section class="hero-section">
       <div class="hero-content">
-        <hr class="orange-line">
+        <hr class="orange-line hero-line">
         <h2 class="hero-title">Pythonda dasturlash asoslari</h2>
         <p class="hero-text">Dasturlash asoslariga oid o‘zbek tilidagi ilk eng mukammal qo‘llanma. Kitobning har bir
           bo‘limi uchun
@@ -45,9 +46,9 @@
 
     <!-- Features section -->
     <section class="feature-section">
-      <hr class="orange-line">
+      <hr class="orange-line future-line">
       <h2 class="feature-title">Nega aynan <br> Akademnashr?</h2>
-      <ul class="feature-list list-none">
+      <ul class="feature-list list-none"> 
         <li class="feature">
           <img src="./img/feature-icon1.png" alt="Feature icon">
           <h3 class="feature-item-title">Oson buyurtma qilish</h3>
@@ -74,12 +75,14 @@
     <section class="sale">
       <div class="sale-content">
         <h2 class="sale-title">Bolalar kitoblari uchun ajoyib aksiya!</h2>
-        <p class="sale-text">Ertaklar, she’rlar, sarguzasht asarlar, fikrlashni o’stirish uchun turli mashq
-          qo’llanmalari va komikslar.
-        </p>
-        <p class="sale-text">Aksiyadagi eng katta to’plamda <span class="primary-text">50 ta kitob</span>ni <span
-            class="primary-text">350 ming</span> so’mga (aslida 383 ming so’m) sotib olishingiz mumkin.
-        </p>
+        <div>
+          <p class="sale-text">Ertaklar, she’rlar, sarguzasht asarlar, fikrlashni o’stirish uchun turli mashq
+            qo’llanmalari va komikslar.
+          </p>
+          <p class="sale-text">Aksiyadagi eng katta to’plamda <span class="primary-text">50 ta kitob</span>ni <span
+              class="primary-text">350 ming</span> so’mga (aslida 383 ming so’m) sotib olishingiz mumkin.
+          </p>
+        </div>
         <a href="#" class="main-link">Buyurtma berish</a>
       </div>
       <div>
