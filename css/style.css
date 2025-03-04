@@ -33,7 +33,12 @@
   font-family: "Roboto", sans-serif, serif;
   margin: 0;
 }
-
+.orange-line {
+  background-color: #FF7500;
+  width: 80px;
+  height: 3px;
+  border: none;
+}
 .list-none {
   list-style: none;
 }
@@ -69,6 +74,12 @@
 .site-header-list {
   display: flex;
   gap: 32px;
+}
+.sitenav-list-item {
+  margin-right:32px ;
+}
+.sitenav-list-item:last-child {
+  margin-right: 0;
 }
 .site-header-list .active {
   border-bottom: 3px solid #FF7500;
@@ -127,11 +138,10 @@
   color: #fff;
 }
 
-.orange-line {
-  background-color: #FF7500;
-  width: 80px;
-  height: 3px;
-  border: none;
+
+
+.hero-line {
+  margin-bottom: 40;
 }
 
 .hero-title {
@@ -140,6 +150,8 @@
   font-weight: 700;
   line-height: 48px;
   letter-spacing: 0.5px;
+  margin-top: 0;
+  margin-bottom: 24px;
 }
 
 .hero-text {
@@ -151,6 +163,9 @@
 .feature-section {
   padding: 210px 0;
 }
+.future-line {
+  margin-bottom: 24px;
+}
 
 .feature-title {
   color: #000;
@@ -158,16 +173,23 @@
   font-size: 72px;
   line-height: 86px;
   letter-spacing: 0.5px;
+  margin-bottom:72px ;
 }
 
 .feature-list {
   display: flex;
-  justify-content: space-between;
 }
 
 .feature {
-  width: 340px;
+  width: 340px; 
   color: #000;
+  margin-right: 40px;
+}
+.feature:last-child {
+  margin-right: 0;
+}
+.feature img {
+margin-bottom: 32px;
 }
 
 .feature-item-title {
@@ -175,6 +197,8 @@
   font-size: 24px;
   line-height: 28px;
   letter-spacing: 0.5px;
+  margin-top: 0;
+  margin-bottom: 12px;
 }
 
 .feature-item-text {
@@ -182,6 +206,7 @@
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.5px;
+  margin: 0;
 }
 
 .sale {
@@ -189,8 +214,13 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  border-radius: 12px;
+  padding: 64px 0;
 }
 
+.sale img {
+  border-radius: 12px;
+}
 .sale-content {
   width: 440px;
   color: #fff;
@@ -201,6 +231,8 @@
   line-height: 48px;
   letter-spacing: 0.5px;
   font-size: 40px;
+  margin-top: 0;
+  margin-bottom: 24px;
 }
 
 .sale-text {
@@ -217,6 +249,7 @@
 
 .site-footer {
   background-color: #f8f8f8;
+  padding: 56px 0;
 }
 
 .footer-top {
