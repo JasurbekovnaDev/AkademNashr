@@ -43,6 +43,7 @@
   width: 80px;
   height: 3px;
   border: none;
+  margin: 0;
 }
 .list-none {
   list-style: none;
@@ -144,9 +145,6 @@
   width: 390px;
   color: #fff;
 }
-
-
-
 .hero-line {
   margin-bottom: 40px;
 }
