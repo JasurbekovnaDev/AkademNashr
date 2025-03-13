@@ -87,6 +87,7 @@
 
 .site-header-list {
   display: flex;
+  margin-right: 32px;
 }
 
 .sitenav-list-item {
