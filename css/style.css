@@ -76,12 +76,11 @@
 .site-header-nav {
   display: flex;
   align-items: center;
-  gap: 32px;
+  margin-right: 32px;
 }
 
 .site-header-list {
   display: flex;
-  gap: 32px;
 }
 .sitenav-list-item {
   margin-right:32px ;
@@ -150,7 +149,7 @@
 
 
 .hero-line {
-  margin-bottom: 40;
+  margin-bottom: 40px;
 }
 
 .hero-title {
@@ -168,6 +167,7 @@
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0.5px;
+  margin-bottom: 32px;
 }
 .feature-section {
   padding: 210px 0;
@@ -238,6 +238,9 @@ margin-bottom: 32px;
   width: 440px;
   color: #fff;
 }
+.sale-content div {
+  margin-bottom: 24px;
+}
 
 .sale-title {
   font-weight: 700;
@@ -253,6 +256,10 @@ margin-bottom: 32px;
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.5px;
+  margin-bottom: 12px;
+}
+.sale-text:last-child {
+  margin-bottom: 0;
 }
 
 .primary-text {
@@ -281,6 +288,9 @@ margin-bottom: 32px;
   height: 2px;
   background-color: #25242080;
   margin-bottom: 64px;
+}
+.footer-bottom {
+  display: flex;
 }
 
 .footer-bottom ul {
