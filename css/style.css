@@ -287,6 +287,9 @@ margin-bottom: 32px;
 .footer-bottom ul li {
   margin: 16px;
 }
+..footer-bottom ul li:last-child {
+  margin: 0;
+}
 
 .footer-link {
   font-weight: 400;
