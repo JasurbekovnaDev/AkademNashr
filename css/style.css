@@ -71,6 +71,9 @@
   border-top: 5px solid #ff7500;
   padding-top: 16px;
   padding-bottom: 16px;
+  position: sticky;
+  top: 0;
+  z-index: 1;
 }
 
 .header-container {
@@ -150,12 +153,17 @@
 .hero-section img {
   border-radius: 8px;
   box-shadow: 24px 24px 0 0 #FF750099;
+  position: absolute;
+  right: 20px;
+  top: -40px;
+
 }
 
 .hero-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: relative;
 }
 
 .hero-content {
@@ -249,10 +257,14 @@
   align-items: center;
   border-radius: 12px;
   padding: 64px;
+  position: relative;
 }
 
 .sale img {
   border-radius: 12px;
+  position: absolute ;
+  right: 64px;
+  bottom: 64px;
 }
 
 .sale-content {
